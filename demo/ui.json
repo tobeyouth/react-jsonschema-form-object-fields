@@ -1,0 +1,24 @@
+{
+  "ui:field": "fields",
+  "ui:fieldsets":[
+    ["group_name"],
+    ["description"],
+    ["member"]
+  ],
+  "group_name": {
+    "ui:widget": "text",
+    "ui:placeholder": "请填入小组名称"
+  },
+  "description": {
+    "ui:widget": "textarea",
+    "ui:placeholder": "请用一句话介绍你的小组"
+  },
+  "member": {
+    "items": {
+      "ui:field": "fields",
+      "ui:fieldsets": [
+        ["name", "number"]
+      ] 
+    }
+  }
+}

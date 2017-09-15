@@ -1,0 +1,39 @@
+{
+  "name": "react-jsonschema-form-object-fields",
+  "version": "1.0.0",
+  "description": "A field for react-jsonschema-form",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev webpack --colors -p --progress --profile --watch --display-error-details;exit 0;",
+    "build": "NODE_ENV=production webpack --colors -p --progress --profile --colors --optimize-minimize;exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobeyouth/react-jsonschema-form-object-fields.git"
+  },
+  "keywords": [
+    "react",
+    "jsonschema"
+  ],
+  "author": "tobeyouth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobeyouth/react-jsonschema-form-object-fields/issues"
+  },
+  "homepage": "https://github.com/tobeyouth/react-jsonschema-form-object-fields#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "json-loader": "^0.5.7",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-jsonschema-form": "^0.50.1",
+    "webpack": "^3.5.6"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "表单",
+  "description": "请填入表单中的信息",
+  "type": "object",
+  "definitions": {
+    "user": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "number": {
+          "title": "Number",
+          "type": "number"
+        }
+      }
+    }
+  },
+  "properties": {
+    "group_name": {
+      "title": "Group Name",
+      "type": "string"
+    },
+    "description": {
+      "title": "Group Description",
+      "type": "string"
+    },
+    "member": {
+      "title": "Member",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/user"
+      }
+    }
+  }
+}
