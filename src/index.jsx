@@ -188,7 +188,7 @@ class ObjectFields extends Component {
 }
 
 if (process.env.NODE_ENV !== "production") {
-  ObjectField.propTypes = {
+  ObjectFields.propTypes = {
     schema: PropTypes.object.isRequired,
     uiSchema: PropTypes.object,
     errorSchema: PropTypes.object,

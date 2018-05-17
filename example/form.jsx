@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
 import Form from 'react-jsonschema-form'
-import ObjectFields from 'src/index'
+import ObjectFields from './../src/index'
 
 class DemoForm extends Component {
 
