@@ -12,6 +12,30 @@ A field setting for `react-jsonschema-form`
 
 ### How
 
+```
+// schema
+{
+    "properties": {
+        "title": {
+            "title": "this is title",
+            "type": "string"
+        },
+        "aliax": {
+            "title": "this is alias",
+            "type": "string"
+        }
+    }
+}
+
+// ui schema
+{
+    "ui:field": "fields",
+    "ui:fieldsets": [
+		["title", "alias"]
+	]
+}
+```
+
 
 ### deps
 
