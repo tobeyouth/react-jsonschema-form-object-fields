@@ -245,7 +245,7 @@ ObjectFields.defaultProps = {
 
 
 if (process.env.NODE_ENV !== "production") {
-  ObjectField.propTypes = {
+  ObjectFields.propTypes = {
     schema: _propTypes2.default.object.isRequired,
     uiSchema: _propTypes2.default.object,
     errorSchema: _propTypes2.default.object,
